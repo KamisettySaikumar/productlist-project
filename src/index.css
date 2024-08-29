@@ -11,3 +11,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.mycard{
+  width: 300px; /* Allow the card to adjust its width based on content */
+  
+  margin: 20px auto; /* Center the card horizontally and add vertical margin */
+  box-shadow: 0 4px 8px rgba(7, 80, 216, 0.404)/* Add a subtle box shadow */
+}
+
+.mycard-body {
+  padding: 20px; /* Add padding for content spacing */
+  max-height: 400px; /* Set maximum height for the card body */
+  overflow-y: auto; /* Add vertical scrollbar if content overflows */
+}
+.card-img-top{
+  height: 200px;
+  width: 250px;
+}
